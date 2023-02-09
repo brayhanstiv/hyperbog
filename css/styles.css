@@ -21,13 +21,23 @@ body {
 
 #container{
   width: 70%;
-  padding: 1em;
   text-align: left;
   border: 1px solid #DDD;
   margin: 0 auto;
-  color: red;
 }
 
 #container h1{
   font-size: 20px;
+}
+
+#footer {
+  display: flex;
+  background: #777;
+  color: white;
+  justify-content: center;
+  padding: 1em;
+}
+
+#post {
+  padding: 1em;
 }
